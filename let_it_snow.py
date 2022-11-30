@@ -31,7 +31,8 @@ def main(speed=0, bg_color="grey"):
         # draw the snowflake
         for _ in range(8):
             snowflake_branch(size, myTurtle)
-            myTurtle.left(45)
+            myTurtle.left(46)
+
 
 
 def snowflake_branch(size, myTurtle):
@@ -50,3 +51,4 @@ def snowflake_branch(size, myTurtle):
 
 if __name__ == "__main__":
     main()
+
